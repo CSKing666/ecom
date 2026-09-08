@@ -39,6 +39,12 @@ curl http://localhost:8080/products
 ]
 ```
 
+## Interactive API docs
+
+With the app running, Swagger UI is available at
+<http://localhost:8080/swagger-ui.html> and the raw OpenAPI 3.1 definition at
+`/v3/api-docs`. Every endpoint can be tried from the browser.
+
 ## Tech stack
 
 | | |
@@ -46,6 +52,7 @@ curl http://localhost:8080/products
 | Java | 21 |
 | Framework | Spring Boot 3.5.6 (Web, Data JPA) |
 | Database | MySQL 8 |
+| API docs | springdoc-openapi 2.8.6 (Swagger UI) |
 | Build | Maven (wrapper included) |
 
 ## Running it locally
